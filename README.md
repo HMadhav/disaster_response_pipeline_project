@@ -17,3 +17,12 @@ python data/process_data.py data/disaster_messages.csv data/disaster_categories.
 ```
 python models/train_classifier.py data/disaster_response_db.db models/classifier.pkl
 ```
+5. To displays visualizations that describe the training data run
+```
+cd app/
+python run.py
+```
+6. Open the web browser and open
+```
+http://localhost:3001/
+```
